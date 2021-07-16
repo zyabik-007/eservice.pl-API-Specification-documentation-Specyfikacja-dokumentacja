@@ -1,0 +1,196 @@
+Strona 1 z 17 04/04/2019
+Wersja 3.0
+Instrukcja obsługi Panelu Instrukcja obsługi Panelu Instrukcja obsługi Panelu Instrukcja obsługi Panelu Instrukcja obsługi Panelu Instrukcja obsługi Panelu Instrukcja obsługi Panelu Instrukcja obsługi Panelu Instrukcja obsługi Panelu Instrukcja obsługi Panelu Instrukcja obsługi Panelu Instrukcja obsługi Panelu Instrukcja obsługi Panelu Instrukcja obsługi Panelu Instrukcja obsługi Panelu Instrukcja obsługi Panelu Instrukcja obsługi Panelu Instrukcja obsługi Panelu Instrukcja obsługi Panelu Instrukcja obsługi Panelu Instrukcja obsługi Panelu Instrukcja obsługi Panelu Instrukcja obsługi Panelu Instrukcja obsługi Panelu Instrukcja obsługi Panelu Instrukcja obsługi Panelu AkceptantaAkceptantaAkceptantaAkceptantaAkceptantaAkceptantaAkceptantaAkceptantaAkceptantaAkceptanta
+Wersja 1.0
+Data utworzenia: 04/04/2019
+Strona 2 z 17 04/04/2019
+Wersja 3.0
+Spis treści
+Spis treści ........................................................................................................................................................................ 2
+1 Wstęp ....................................................................................................................................................................... 3
+2 Logowanie .............................................................................................................................................................. 3
+3 Główne Menu ......................................................................................................................................................... 3
+3.1 Transakcje ....................................................................................................................................................... 4
+3.1.1 Parametry Wyszukiwania .................................................................................................................... 5
+3.1.2 Lista Transakcji ...................................................................................................................................... 6
+3.1.3 Szczegóły Transakcji ............................................................................................................................. 7
+3.2 Link Generator ............................................................................................................................................... 9
+3.3 Unieważnienie ............................................................................................................................................. 12
+3.4 Do rozliczenia ............................................................................................................................................... 13
+3.5 Zwroty ............................................................................................................................................................ 14
+3.6 Raportowanie............................................................................................................................................... 15
+3.6.1 Wybierz Raport – Szczegółowy Raport Transakcji ........................................................................ 16
+3.6.2 Wybierz Raport – Raport Skrócony ................................................................................................. 16
+3.7 Ustawienia .................................................................................................................................................... 17
+3.9 Pomoc ............................................................................................................................................................ 17
+3.10 Wylogowanie ................................................................................................................................................ 17
+4 Kontakt .................................................................................................................................................................. 17
+Strona 3 z 17 04/04/2019
+Wersja 3.0
+1 Wstęp
+Panel Akceptanta to moduł do zarządzania wszystkimi typami transakcji płatniczych dokonywanych na bramce płatniczej eService. Narzędzie umożliwia przeglądanie ostatnich transakcji, dokonywanie unieważnień i zwrotów oraz generowanie szczegółowych raportów.
+Aplikacja działa z wszystkimi popularnymi przeglądarkami, należy jednak sprawdzić, czy została zainstalowana jej najnowsza wersja.
+Panel Akceptanta dostępny jest na stronie internetowej pod adresem: https://backofficeui-api.secure.eservice.com.pl/#/login
+2 Logowanie
+Po uzyskaniu dostępu do adresu URL aplikacji, należy wprowadzić nazwę użytkownika i hasło, aby uzyskać dostęp do systemu.
+Nazwa użytkownika oraz hasło zostaną do Państwa przekazane w wiadomości email.
+Użytkownik może dokonać wyboru innego języka z rozwijanej listy.
+W przypadku jakichkolwiek problemów z logowaniem prosimy o kontakt pod adresami wymienionymi w pkt 4.
+3 Główne Menu
+Po wybraniu dowolnego elementu z głównego menu, wyświetlone zostaną odpowiednie funkcjonalności.
+Strona 4 z 17 04/04/2019
+Wersja 3.0
+Zielony pasek po prawej stronie wskazuje aktualnie wybraną zakładkę.
+W dowolnym momencie można zmienić opcję w Głównym Menu.
+3.1 Transakcje
+Pole Transakcje wyświetla ogólne informacje o transakcjach procesowanych na bramce płatniczej:
+ Parametry Wyszukiwania: w górnej części strony można wpisać parametry, według których wyszukamy interesujące nas transakcje
+ Lista Transakcji: pokazuje wyniki wyszukiwania na podstawie zdefiniowanych uprzednio parametrów
+Każda pozycja w wyświetlanych wyników wyszukiwania posiada z lewej strony zielony przycisk Widok. Wybranie tej opcji wyświetla użytkownikowi więcej szczegółów na temat danej transakcji.
+Strona 5 z 17 04/04/2019
+Wersja 3.0
+Domyślnie wyświetlanych jest 10 ostatnich transakcji we wszystkich walutach, dla wszystkich kwot i statusów transakcji.
+Użytkownik może zarządzać widokiem listy poprzez dodanie lub usunięcie dowolnej kolumny.
+W celu wyświetlenia większej liczby wyszukanych wyników można rozszerzyć wyświetlanie wybierając odpowiednią liczbę wyników na stronę w lewym dolnym rogu. W prawym dolnym rogu jest możliwość przejścia na kolejne strony wyświetlania transakcji:
+ Pierwsza – przejście do najnowszych transakcji
+ Poprzednia – przejście do poprzednich transakcji
+ Następna – przejście do wcześniejszych transakcji
+ Ostatnia – przejście do najstarszych transakcji
+3.1.1 Parametry Wyszukiwania
+Użytkownik może wyszukać transakcje korzystając z parametrów:
+ Identyfikator Zamówienia
+ Identyfikator Klienta
+ Nazwa Klienta – osoba, która złożyła zamówienie, a niekoniecznie dokonywała płatności
+ Opcje kwoty płatności:
+o równa
+o nie jest równa
+o mniejsza niż
+o większa niż
+Strona 6 z 17 04/04/2019
+Wersja 3.0
+o pomiędzy
+ Status transakcji:
+o Nieukończona
+o Unieważnienie
+o Do rozliczenia
+o Nierozliczone
+o Rozliczone
+o Błąd
+o Ustawione do zwrotu
+o Zwrócone
+o Odrzucona
+ Waluta
+ Data dokonania transakcji (lub przybliżona data)
+Po wprowadzeniu parametrów wyszukiwania, można kliknąć przycisk Szukaj. Dla pól Identyfikator Zamówienia, Identyfikator Klienta oraz Nazwy Klienta, po wprowadzeniu 4 pierwszych znaków, po krótkiej chwili aplikacja odświeży listę pokazując pasujące rekordy. Przycisk Wyczyść usuwa wprowadzone parametry wyszukiwania.
+3.1.2 Lista Transakcji
+Lista Transakcji obejmuje następujące kolumny: Kolumna Opis
+Działanie
+Przycisk umożliwia przeglądanie Danych Szczegółowych Transakcji
+Data operacji
+Data i godzina autoryzacji transakcji
+Identyfikator Klienta
+Identyfikator klienta w systemie akceptanta
+Identyfikator Zamówienia
+Identyfikator zamówienia w systemie akceptanta
+Nazwa Klienta
+Nazwa klienta w bazie danych eService
+Rodzaj Karty
+Rodzaj karty użytej dla transakcji
+Konto/Token
+Token numeru karty użytej dla transakcji. W przypadku wyboru innej metody transakcji, treść pola brzmi: N/A Token.
+Kwota
+Waluta oraz całkowita kwota transakcji
+Przeliczona wartość
+Przewalutowana kwota transakcji według kursu
+Kurs Przeliczeniowy
+Kurs zastosowany dla przewalutowania kwoty transakcji
+Strona 7 z 17 04/04/2019
+Wersja 3.0
+Możliwe do zwrotu
+Faktyczna możliwa Kwota do zwrotu. Będzie pomniejszana w przypadku wykonania zwrotów częściowych
+3D Sec.
+Informacja o tym, czy transakcja została przeprocesowana z wykorzystanie kodu 3D Secure
+Typ Transakcji
+Sprzedaż / Zwrot
+Typ oryginalnej transakcji
+Rodzaj transakcji
+Status
+Aktualny status transakcji z punktu 3.1.1.
+Zwrot niepołączony
+Strzałka po prawej stronie nagłówka każdej kolumny umożliwia sortowanie danych w porządku rosnącym (A to Z, 1, 2, 3…) lub malejącym (Z – A, …3, 2, 1) oraz pozwala ukryć konkretną kolumnę.
+Ponowne wybranie strzałki umożliwi usunięcie konkretnego sortowania, co spowoduje automatyczne odświeżenie się listy segregując rekordy po kolumnie Data Operacji w porządku rosnącym. Dodatkowo, po pojedynczym kliknięciu na górze kolumny można ustawić sortowanie rosnąco, malejąco, lub brak sortowania.
+Istnieje też możliwość ukrywania lub odkrywania prezentowanych kolumn za pomocą rozwijanego Menu umieszczonego w prawym górnym rogu okienka z podsumowaniem.
+3.1.3 Szczegóły Transakcji
+W zakładce Szczegóły Transakcji wyświetlane są dane dla pojedynczej transakcji. Strona nie jest dostępna w Menu Głównym, a jako opcja w kolumnie Działanie.
+Strona 8 z 17 04/04/2019
+Wersja 3.0
+Sekcja Szczegóły Transakcji wyświetla dane o płatności, m.in. kwotę, datę rozpoczęcia, dane karty w formie obrazu jak również jej rezultat.. Pozycja Nr referencyjny Zamówienia w Podstawowych Szczegółach Transakcji jest generowana przez Akceptanta - można prześledzić krok po kroku Historię Transakcji. Lista kolejnych zdarzeń w procesie płatności jest uporządkowana chronologicznie, malejąco..
+W celu sprawdzenia danych innych transakcji, użytkownik przechodzi do takich danych poprzez wybranie przycisku po lewej stronie na dole – Powrót do Wyszukiwania.
+Wszystkie dane można wydrukować lub zapisać w formie raportu poprzez wybranie przycisku Drukuj lub Zapisz. Poniżej wskazano wzór raportu:
+Strona 9 z 17 04/04/2019
+Wersja 3.0
+3.2 Link Generator
+Opcja Link Generator pozwala na wysłanie klientowi wiadomości e-mail na konkretny adres z linkiem do płatności, dzięki któremu może on dokończyć płatność w bezpiecznym środowisku bramki płatniczej.
+Użytkownik ma możliwość utworzenia indywidualnej wiadomości z linkiem do płatności zgodnie z opcjami wskazanymi poniżej:
+Strona 10 z 17 04/04/2019
+Wersja 3.0
+W Danych Przedsiębiorstwa użytkownik może dodać do korespondencji własne logo (maksymalny rozmiar 50kb, 300x300), wskazać adres e-mail, numer telefonu do kontaktu dla klienta, a w sekcji Szczegóły Strony Łącza nadać tytuł zakładki internetowej oraz wpisać tekst powitalny i pożegnalny wiadomości wyświetlanej na stronie z bramką płatniczą. Powyższe zmiany można zapisać jako domyślne. Wszelkie zmiany są aktualizowane na bieżąco po prawej stronie, gdzie użytkownik może zarówno podejrzeć treść e-maila, jak również zawartość strony, na którą zostanie przekierowany klient.
+Strona 11 z 17 04/04/2019
+Wersja 3.0
+Sekcja Szczegóły Łącza pozwala określić rodzaj transakcji (zakup/autoryzacja), walutę rozliczenia, jak również dane szczegółowe dotyczące płatności: tytuł sprzedawanego produktu/usługi, ilość, jednostkę, kwotę jednostkową, podatek VAT (% lub wartość). Pole ID Zamówienia zostaje uzupełnione automatycznie przez bramkę eService. Po uzupełnieniu wszystkich danych, należy użyć przycisku Utwórz Link do Płatności na dole strony, by wygenerować adres URL. Aplikacja utworzy strony z linkiem do płatności, a po wciśnięciu przycisku Wyślij pocztą e-mail, prześle wiadomości do klienta na wskazany wcześniej adres.
+Strona 12 z 17 04/04/2019
+Wersja 3.0
+Klient otrzyma następującą wiadomość zawierającą bezpośredni link do bezpiecznej strony płatności:
+3.3 Unieważnienie
+Sekcja Unieważnienie umożliwia wyszukanie i podjęcie czynności dla konkretnej transakcji. Unieważnieniu podlegają transakcje, które nie zostały rozliczone w dniu dokonania. W zakładce wyświetlone będą transakcje ze statusem: ‘DO ROZLICZENIA’, ‘NIEROZLICZNONE, ‘USTAWIONE DO ZWROTU’. Wyłącznie takie rodzaje transakcji mogą podlegać unieważnieniom.
+Strona 13 z 17 04/04/2019
+Wersja 3.0
+Do każdej linii na liście przypisano po lewej stronie przycisk Unieważnienie. Po jego kliknięciu, pojawi się żądanie potwierdzenia czynności.
+Po wybraniu OK, aplikacja dokonuje Unieważnienia, po czym potwierdza wykonanie czynności.
+Transakcja taka zostanie usunięta z listy w sekcji Unieważnienie i będzie można ją później wyszukać w menu Transakcje.
+3.4 Do rozliczenia
+Sekcja Do rozliczenia pozwala użytkownikowi na wyszukanie konkretnej transakcji, dla której została wysłana jedynie autoryzacja (zablokowanie środków klientowi), a które wymagają finalizacji. W tej sekcji dostępne są transakcje ze statusem ‘NIEROZLICZONE’.
+Strona 14 z 17 04/04/2019
+Wersja 3.0
+Do każdego rekordu na liście przypisano po lewej stronie przycisk, po wyborze którego pojawi się żądanie potwierdzenia czynności.
+Po kliknięciu OK, aplikacja dokonuje pełnego obciążenia, po czym potwierdza wykonanie czynności.
+Transakcja taka zostanie usunięta z listy w sekcji Do rozliczenia i będzie można ją później wyszukać w menu Transakcje.
+3.5 Zwroty
+Strona Zwroty pozwala wyszukać konkretną transakcję, dzięki czemu można dokonać zwrotu, poprzez wypłatę kwoty na rzecz klienta. Możliwe są pełne lub częściowe zwroty.
+Do każdej linii na liście przypisano w kolumnie po lewej przycisk Pełny Zwrot. Po kliknięciu przycisku, pojawi się żądanie potwierdzenia czynności.
+Strona 15 z 17 04/04/2019
+Wersja 3.0
+Po kliknięciu OK, aplikacja dokonuje Pełnego Zwrotu, po czym potwierdza wykonanie czynności. Transakcja taka zostanie przeniesiona z sekcji Zwroty do sekcji Transakcje.
+Do każdej linii przypisano także w lewej kolumnie przycisk Częściowy Zwrot. Po jego wybraniu użytkownik wprowadza kwotę oraz ewentualny komentarz odnośnie zwrotu transakcji.
+Po kliknięciu OK, aplikacja wyświetla potwierdzenie:
+Transakcja nie zostanie usunięta z sekcji Zwroty, w związku z tym, że nadal dostępne są środki do wypłaty w ramach jednej transakcji. Umożliwia to dokonanie kolejnego częściowego zwrotu lub pozostałej kwoty. W takim przypadku, transakcja zostanie usunięta z listy Transakcji Zwrotu.
+3.6 Raportowanie
+Narzędzie Raportujące pozwala tworzyć raporty na dwa sposoby: raporty szczegółowe w formacie CSV oraz Standardowe w PDF. Raport pozwala generować wiele informacji odnośnie do poszczególnych transakcji lub podsumowuje dany okres (według indywidualnych parametrów -, Za Poprzedni Tydzień, Poprzedni Miesiąc, Ostatnie 7 Dni). Wszystkie pliki można zapisać przyciskiem Zapisz.
+Strona 16 z 17 04/04/2019
+Wersja 3.0
+3.6.1 Wybierz Raport – Szczegółowy Raport Transakcji
+Szczegółowy Raport z Transakcji zawiera zestaw informacji dotyczących transakcji, który można wykorzystać do zasilenia zewnętrznych hurtowni danych. Pliki generowane są w standardowym formacie CSV. Dane mogę być filtrowane według zakresu dat lub statusu transakcji.
+3.6.2 Wybierz Raport – Raport Skrócony
+Raport Skrócony wyświetla zbiorcze dane dotyczące sprzedaży i zwrotów w danym okresie, które użytkownik może przeglądać, drukować lub zapisać jako dokument PDF.
+Zakres prezentowanych danych można grupować według trzech opcji do wyboru za pomocą przycisków:
+ Ostatni tydzień: wyświetla poprzedni tydzień kalendarzowy od poniedziałku do niedzieli włącznie
+ Ostatni Miesiąc: wyświetla poprzedni miesiąc kalendarzowy od 1 do 28/29/30/31 dnia miesiąca włącznie
+ Ostatnie 7 dni: wyświetla 7 dni poprzedzających aktualny dzień. Np. jeśli aktualny dzień to piątek, wyświetlone zostaną dane od poprzedniej soboty do czwartku.
+Przyciski pozwalają na ustawienie zakresu dat dla parametrów Data Transakcji.
+Raport wyświetla liczbę/kwotę transakcji oraz sumę kwot transakcji w danym okresie. Dane liczbowe odnoszą się do sprzedaży oraz zwrotów i wyświetlają całkowitą kwotę netto.
+Obliczane są dwie sumy:
+ transakcje rozliczone
+ transakcje nierozliczone
+Każde ustawienie dotyczy danej Waluty lub MID Banku.
+Strona 17 z 17 04/04/2019
+Wersja 3.0
+3.7 Ustawienia
+W sekcji Ustawienia użytkownik może dokonać zmiany hasła, które powinno mieć długość od 8 do 50 znaków, musi być kombinacją znaków alfanumerycznych oraz mieć przynajmniej jeden znak specjalny, np. !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~. Użytkownik w Panelu Akceptanta może dokonać zmiany ustawienia czasu i daty na preferowaną strefę czasową. W sekcji Ustawienia można dokonać zmiany języka bez konieczności wylogowania się. Wszelkie zmiany należy potwierdzać korzystając z przycisku “Zapisz” po lewej stronie każdej opcji.
+3.9 Pomoc
+W sekcji Pomoc załączono zaktualizowaną Instrukcję obsługi Panelu Akceptanta.
+3.10 Wylogowanie
+Aby wylogować się z Panelu Akceptanta, należy wybrać opcję Wyloguj z głównego menu na dole panelu. Użytkownik zostanie przekierowany do strony powitalnej, gdzie można wpisać dane do logowanie (punkt 2 niniejszego podręcznika).
+4 Kontakt
+W przypadku pytań prosimy o kontakt z Centrum Obsługi Akceptanta:
+T: +48 22 533 22 44
+@: wdrozenia_ecommerce@eservice.com.pl
