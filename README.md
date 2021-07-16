@@ -1,6 +1,9 @@
 # eservice.pl-API-Specification-documentation-Specyfikacja-dokumentacja
 eservice.pl API Specification documentation Specyfikacja dokumentacja The purpose of this document is to provide a description of Intelligent Payments’ gateway API, and is specifically intended for merchant integration purposes. Instrukcja obsługi 
 
+
+Dokumentacja, specyfikacji API eservice.pl Specyfikacja, dokumentacja. Celem tego dokumentu jest dostarczenie opisu interfejsu Gateway API Intelligent Payments, jest przeznaczony specjalnie do celów integracji z akceptantami. Instrukcja obsługi
+
 # keys
 AUTH/PURCHASEAPI Operation – Hosted Payment Page Integration
 6.1 Session Token Request
